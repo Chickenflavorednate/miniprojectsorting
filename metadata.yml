@@ -1,0 +1,12 @@
+---
+:id: 211943828
+:submitters:
+- :name: Nathanael Pierre-Louis
+  :email: nathanpl@udel.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2023-11-12 20:04:34.272667000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2023-11-12 12:04:34.272667000 Z
+:status: processed
+:score: 50.0

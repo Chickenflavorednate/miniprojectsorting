@@ -1,0 +1,35 @@
+1.
+insertion sort:
+insertion sort          n=   1000: 1.37305e+06 moves,   1.36755e+06 comparisons,        1ms
+insertion sort          n=   2000: 9.35268e+06 moves,   9.3262e+06 comparisons, 5ms
+insertion sort          n=   4000: 4.39943e+07 moves,   4.39158e+07 comparisons,        26ms
+insertion sort          n=   8000: 1.8459e+08 moves,    1.84398e+08 comparisons,        106ms
+insertion sort          n=  16000: 7.49634e+08 moves,   7.49204e+08 comparisons,        419ms
+
+merge sort:
+merge sort              n=  32000: 8.52993e+08 moves,   8.52558e+08 comparisons,        12ms
+merge sort              n=  64000: 1.70718e+09 moves,   1.70591e+09 comparisons,        39ms
+merge sort              n= 128000: 2.56377e+09 moves,   2.56085e+09 comparisons,        96ms
+merge sort              n= 256000: 3.42515e+09 moves,   3.41895e+09 comparisons,        204ms
+merge sort              n= 512000: 4.2961e+09 moves,    4.2834e+09 comparisons,         371ms
+
+
+merge-insertion sort:
+merge-insertion sort            n=  32000: 8.53076e+08 moves,   8.52612e+08 comparisons,        7ms
+merge-insertion sort            n=  64000: 1.70743e+09 moves,   1.70607e+09 comparisons,        22ms
+merge-insertion sort            n= 128000: 2.56435e+09 moves,   2.56123e+09 comparisons,        54ms
+merge-insertion sort            n= 256000: 3.42638e+09 moves,   3.41977e+09 comparisons,        117ms
+merge-insertion sort            n= 512000: 4.29866e+09 moves,   4.2851e+09 comparisons, 218ms
+
+
+2.
+size:32000, results: 8.53076e+08 moves,   8.52612e+08 comparisons,        7ms
+size:64000, results: 1.70743e+09 moves,   1.70607e+09 comparisons,        22ms
+size:128000, results: 2.56435e+09 moves,   2.56123e+09 comparisons,        54ms
+size:256000, results: 3.42638e+09 moves,   3.41977e+09 comparisons,        117ms
+size:512000, results: 4.29866e+09 moves,   4.2851e+09 comparisons,          218ms
+
+3. The output that I would consider was the best from merge-insertion sort is when n = 32000. It
+did not really surprise me seeing as that was the smallest size tested. I did not really change the sizes
+they seemed fine to me so I kept them the same as they were since they worked perfectly fine for the code
+it did not take long for my code to output.
