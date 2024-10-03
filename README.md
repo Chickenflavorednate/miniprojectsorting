@@ -1,1 +1,1 @@
-# miniprojectsorting
+This project involves implementing and comparing the performance of different sorting algorithms on randomly generated arrays of various sizes. Each sorting algorithm is evaulated based on the number of comparisons and moves it performs during its specific sorting process.
